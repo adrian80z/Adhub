@@ -1,0 +1,1278 @@
+body {
+	
+	font-family:calibri;
+	margin:0%;
+	padding:0%;
+	background-image:url("../images/crossword.png");
+	}
+	
+	.wrapper {
+	width:100%;
+	}
+	
+	/* header part */
+	
+	header {
+		width:100%;
+		float:left;
+		heihgt:150px;
+		background:#FAE27F;
+	}
+	
+	.fotorama {
+		margin-top:25px;
+		margin-bottom:50px;
+	}
+	
+	
+	figure.logo {
+		width:175px;
+		float:left;
+		margin-left: 20px;
+		margin-top: 20px;
+		}
+	
+	header h1 {
+		font-size:2em;
+		margin-top:112px;
+		font-family: serif;
+		
+	}
+	
+	.loginbuttons {
+		width:40%;
+		float:left;
+		text-align:right;
+		font-weight:bold;
+		font-size:1.2em;
+		margin-top:2%;
+		padding-right:2%;
+		box-sizing:border-box;
+	}
+	
+	.left {
+		width:60%;
+		float:left;
+		box-sizing:border-box;
+	}
+	
+	.userinfo {
+		width:40%;
+		float:left;
+		text-align:right;
+		font-size:1.3em;
+		margin-top:1%;
+		padding-right:2%;
+		box-sizing:border-box;
+	}
+	
+	.userpro {
+		width:40%;
+		float:left;
+		text-align:right;
+		font-size:1.1em;
+		padding-right:2%;
+		box-sizing:border-box;
+	}
+	
+	
+	.fullheader {
+		width:40%;
+		float:left;
+		background:red;
+	}
+	
+	
+	.addbutton  {
+		width:50%;
+		float:left;
+	}
+	
+	.advertbutton {
+		width:145px;
+		float:right;
+		text-align:center;
+		font-size:1.1em;
+		margin-right:2%;
+		box-sizing:border-box;
+		background-color:#54DE26;
+		height:40px;
+		line-height:40px;
+		margin-top:18px;
+		box-shadow: 1px 1px 2px gray;
+		text-transform:uppercase;
+		font-weight:bold;
+		border:none;
+		color:white;	
+		cursor:pointer;
+	}
+	
+	.advertbutton:hover {
+		background-color:#4FCF3E;
+	}
+	
+	.inside {
+		width:50%;
+		float:left;
+	}
+	
+	
+	nav {
+		width:100%;
+		height:50px;
+		float:left;
+		background:rgba(0,0,0,0.15);
+		box-shadow: inset 0 40px 10px -10px rgba(255,255,255,0.35);
+		
+	}
+	
+	.mob {
+		display:none;
+	}
+	
+	.home {
+		margin:0px;
+		padding:0px;
+		width:45px;
+		float:left;
+		margin-left:5.5%;
+	}
+	
+	#search {
+		float:right;
+		width:66%;
+	}
+	
+	#search > select {
+		width:25%;
+		float:left;
+		margin-top:7px;
+		margin-left: 20px;
+		border-radius:0px;
+	}
+	
+	.searchbut > input {
+		width:46%;
+		float:left;
+		margin-top:7px;
+		margin-left:5%;
+		border-radius:0px;
+	}
+	
+	
+	.mybutton {
+		border-radius:5px;
+		box-shadow: 1px 1px 2px gray;
+		border:none;
+		height:35px;
+		margin-top:7px;
+		border-radius:0px;
+		width:15%;
+		background-color:black;
+		color:white;
+		font-weight:bold;
+		cursor:pointer;
+		box-sizing:border-box;
+	}
+	
+	
+	.searchbut {
+		margin-right:3.5%;	
+		box-sizing:border-box;
+		}
+	
+	a  {
+		text-decoration:none;
+	}
+	
+	a:link, a:visited {
+		color:black;
+	}
+	
+	a:hover {
+		color:blue;
+		
+		
+	}
+	
+	.home img {
+		width:100%;
+	}
+	/* end header */
+	
+	
+	/* forms part */
+		
+		#signup, #login {
+			width:35%;
+			box-sizing:border-box;
+			padding:2%;
+			float:left;
+			margin-top:100px;
+			
+			background-color:#F5F5F5;
+			border-radius:5px;
+			box-shadow: 1px 1px 2px gray;
+		}
+		
+		
+		
+		
+	
+		#signup, #login {
+			margin-left:33%;
+			margin-right:33%;
+			}
+		
+		input:focus {
+			background:#FFFFDB;
+		}
+			
+		#adform {
+			width:50%;
+			float:left;
+			margin-top:9%;
+			margin-left:24%;
+			background-color:lightskyblue;
+			border-radius:5px;
+			box-shadow: 1px 1px 2px gray;
+			padding:3%;
+		}
+		
+		#adform label  {
+            width:50%;
+            float:left;
+            box-sizing:border-box;
+            line-height: 30px;
+			margin-top:15px;
+			
+			}
+		
+		#adform input {
+			margin-bottom:0;
+		}
+		
+		#adform textarea {
+			width:100%;
+			float:left;
+			border-radius:5px;
+			box-sizing:border-box;
+			padding:2%;
+		}
+		
+		label.box  {
+			width:10%;
+			float:left;
+		}
+			
+		
+        
+		/* start profile page form*/
+		
+		#profile  {
+            width:40%;
+            float:left;
+            box-sizing:border-box;
+            padding-right:2%;
+           margin-top:40px;
+			clear:both;
+			display:none;
+			
+        }
+
+     #profile  label {
+            width:30%;
+            float:left;
+            box-sizing:border-box;
+            margin-top:3px;
+            margin-bottom:3px;
+            line-height: 30px;
+
+        }
+
+       #profile input,  #profile select {
+            width:70%;
+            float:left;
+            box-sizing:border-box;
+            margin-top:3px;
+            margin-bottom:3px;
+            height:30px;
+         }
+		
+		.personal {
+			width:100%;
+			float:left;
+			margin-top:40px;
+			margin-bottom:40px;
+		
+		}
+		
+		.personaldetails {
+			margin-top:60px;
+			width:50%;	
+			float:left;			
+		}
+		
+		
+		
+		.personaldetails > p {
+			line-height: 8px;
+			font-size:1.1em;
+			width:90%;	
+		}
+		
+		
+		.uploadphoto {
+			box-shadow:0 0 0 white;
+			padding-left:0px;
+		}
+		
+		.upd {
+			float:left;
+			height:40px;
+			margin-left:38px;
+			
+			border:none;
+			background-color:#009FE3;
+			color:white;
+			font-weight:bold;
+		}
+		
+		.personal > figure {
+			float:left;
+			width:150px;
+			margin-left:50px;
+		}
+		
+		.personal img {
+			max-width:100%;
+			box-shadow: 1px 1px 2px gray;
+		}
+		
+		
+		/* end profile page form*/
+		
+		
+
+		.conf {
+			width:50%;
+			float:left;
+			height:300px;
+			border-radius:5px;
+			background-color:#F5F5F5;
+			margin-left:25%;
+			margin-right:25%;
+			
+			box-shadow: 1px 1px 2px gray;
+		}
+		
+		.conf > h1, .conf >p {
+			text-align:center;
+			margin-top:100px;
+			
+		}
+		
+		
+		.logo > img {
+			max-width:100%;
+		}
+		
+		
+		
+		input, select {
+			width:100%;
+			float:left;
+			margin-top:2%;
+			margin-bottom:3%;
+			height:35px;
+			border-radius:5px;
+			border:none;	
+			box-sizing:border-box;
+			padding-left:10px;
+			box-shadow:1px 1px 2px gray;
+			}
+	
+	
+		.signup {
+		color:#E87E24;
+		font-size:1.8em;
+		font-weight:bold;
+		margin-top:0%;
+		}
+		
+		span {
+		color: #3282BF;
+		cursor:pointer;
+		}
+		
+		.one {
+			box-shadow:none;
+		}
+		
+		legend {
+			font-size:1.5em;
+			margin-bottom:10px;
+		}
+		
+		.chbox {
+			width:80%;
+			float:left;
+		}
+		
+		.chbox label {
+			float:left;
+			width:70% !important;
+			float:right!important;
+			box-sizing:border-box;
+			
+		}
+		
+		.chbox input {
+			width:10%;
+			float:right;
+			box-sizing:border-box;
+			box-shadow:0 0 0 white;
+			
+			
+		}
+		
+		.button {
+		width:100px;
+		height:40px;
+		background-color:#E87E24;
+		color:white;
+		font-weight:bold;
+		border-radius:6px;
+		border:none;
+		text-align:center;
+		float:right;
+		margin-top:20px;
+		font-size:1.1em;
+		box-shadow:1px 1px 2px gray;
+		}
+	
+		.par  {
+		text-align:center;
+		float:left;
+		}
+		
+		main {
+			width:100%;
+			float:left;
+			padding-left:2%;
+			padding-right:2%;
+			box-sizing:border-box;
+			padding-bottom:100px;
+		}
+		
+		.bg {
+			background:white;
+		}
+		
+		/*advert details*/
+		
+		.adv {
+			width: 29%;
+			float: left;	
+			margin:10px;
+			padding:1%;
+			box-shadow: 1px 1px 2px gray;
+			height:330px;
+			background-color:white;
+		}
+		
+		
+		
+		.detail {
+		width:75%;
+		float:left;
+		}
+	
+	
+		
+		
+	.picture {
+	float:left;
+	height:210px;
+	width:100%;
+	text-align:center;
+	}
+	
+	
+	.picture2 {
+		max-width: 100%;
+		max-height:300px;
+		
+		text-align:center;
+	}
+	
+	.picture2  > img {
+		max-width:100%;
+		max-height:300px;
+	}
+	
+	.picture > img {
+	max-width: 100%;
+	max-height:100%;
+	}
+	
+	.align {
+		
+		margin-left:7%;
+		margin-right:7%;
+	}
+	
+	.title {
+		text-align:center;
+			font-size:1.3em;
+			font-weight:bold;
+		
+	}
+	
+	.title > h2 {
+		margin-top:0px;
+		background:lightblue;
+	}
+	
+	.pricefull {
+		font-size:1.8em;
+		font-weight:bold;
+		margin-bottom:40px;
+	}
+	
+	.infoad {
+		line-height:30px;
+		font-size:1.2em;
+	}
+	
+	.wdth {
+		margin-right:40px;
+		color:black;
+		font-weight:normal;
+	}
+	
+	.wdthl {
+		color:black;
+		font-weight:normal;
+		margin-right:63px;
+		
+	}
+	
+	
+	.line {
+		margin-top:30px;
+	}
+	
+.price {
+	color: darkgreen;
+	text-align: center;
+	font-weight: bold;
+	font-size:1.1em;
+}
+	
+		.viewad {
+		display:block;
+		background-color:#4BB0D1;
+		padding:8px;
+		color:white;
+		text-decoration:none;
+		font-weight:bold;
+			
+		}
+		
+		
+		.viewad:hover {
+			color:white;
+			background-color:#429AB8;
+		}
+		
+		.buttons {
+			width:100%;
+			float:left;
+			text-align:center;
+		}
+		
+		.add{
+			width:30%;
+			float:left;	
+			margin-top:150px;
+			margin-bottom:100px;
+			
+		}
+		
+		.posright {
+			width:40%;
+			float:left;
+			margin-top:100px;
+			padding-left:4%;
+			box-sizing:border-box;
+		}
+		
+		
+		.description {
+			width:100%;
+			float:left;
+			text-align:justify;
+		}
+		
+		.contact {
+			width:25%;
+			float:right;
+			box-sizing:border-box;
+			margin-top:100px;
+			background-color:#F0F0F0;	
+		}
+		
+		.firstmg {
+			text-align:center;
+			background:lightblue;
+			margin-top:0px;
+			height:40px;
+			line-height:40px;
+			margin-bottom:0px;
+			border-bottom:1px solid white;
+		}
+		
+		
+		
+		.infodet {
+			width:100%; 
+			float:left;
+			margin-top:0px;
+			background-color:#F0F0F0;
+			border-bottom:4px solid white;
+			display:none;
+		}
+		
+		.msgbutton {
+			width:100%;
+			float:right;
+			border:none;
+			padding:5px;
+			background:lightgray;
+			font-weight:bold;
+			cursor:pointer;
+		}
+		
+		.msgbutton:hover  {
+			background-color:#BABFC2;
+		}
+		
+		.infodet > textarea {
+			width:100%;
+			box-sizing:border-box;
+			float:left;
+			margin-top:0px;
+			height:165px;
+			border:none;
+			padding:5px;
+			resize:vertical;
+			background-color:#F0F0F0;
+			margin-bottom:0px;
+		}
+		
+		.ph {
+			background-color:lightblue;
+			text-align:center;
+			float:left;
+			width:100%;
+			margin-top:0px;
+			height:40px;
+			line-height:40px;
+			margin-bottom:0px;
+			border-bottom:1px solid white;
+			
+		}
+		
+		
+		.numberstyle {
+			font-size:1.5em;
+			text-align:center;			
+		}
+		
+		
+		.phnum {
+			width:100%;
+			float:left;
+			background-color:#F0F0F0;
+			font-weight:bold;
+			display:none;
+		}
+		
+		
+		
+		.county {
+			text-align:center;
+			text-transform:uppercase;
+		}
+	
+	.fulldet {
+		width:100%;
+		float:left;
+		height:85px;
+		background:lightblue;
+		padding-top:8px;
+		box-sizing:border-box;
+	}
+		footer {
+			width:100%;
+			float:left;
+			border-top: 1px solid rgba(0,0,0,0.2);
+			background:rgba(0,0,0,0.15);
+			box-shadow: inset 0 40px 10px -10px rgba(255,255,255,0.35);
+			}
+		
+		
+		.leftf {
+			width:15%;
+			float:left;
+			margin-left:9.5%;
+			margin-bottom:15px;
+		}
+		
+		.footpar {
+			font-size:1em;
+			color:black;
+			font-family:Arial;
+		}
+		
+		.fullfoot {
+			width:96%;
+			float:left;
+			margin-left:2%;
+			margin-right:2%;
+			color:white;
+		}
+		
+		.socicons {
+			width:100%;
+			float:left;
+			padding-left:2%;
+			padding-right:2%;
+			box-sizing:border-box;
+			margin-top:10px;
+			margin-bottom:10px;
+			text-align:center;
+			margin-bottom:0px;
+		}
+		
+		#twitter:hover {
+			color:#659FCB;
+		}
+		
+		#facebook:hover {
+			color:#3B5998;
+		}
+		
+		#pin:hover {
+			color:#BD2126;
+		}
+		
+		#linked:hover {
+			color:#0177B5;
+		}
+		
+		#twitter:hover, #facebook:hover, #pin:hover, #linked:hover {
+			cursor:pointer;
+		}
+		
+		
+		#twitter, #facebook, #pin, #linked  {
+			margin-right:5px;
+		}
+		
+		.copyrights {
+			width:100%;
+			float:left;
+			margin-top:0px;
+			text-align:right;
+			font-size:0.8em;
+			box-sizing:border-box;
+			padding-right:2%;
+			margin-bottom:5px;
+		}
+		
+		
+		.scrollToTop{
+		width:30px; 
+		 height:30px;
+		 border-radius:8px;
+		text-align:center; 
+		opacity:0.6;
+		font-weight: bold;
+		
+		position:fixed;
+		bottom:25px;
+		right:10px;
+		display:none;
+		background:#009FE3;
+		padding-top:5px;
+		box-sizing:border-box;
+		
+		}
+		.scrollToTop:hover{
+			text-decoration:none;
+			color:white;
+			opacity:1;
+			text-shadow:0 0 0 ;
+		}
+
+		.arrow {
+			color:white;
+		}
+		.contactven {
+			font-size:1.2em;
+			padding:1%;
+			text-align:center;
+			font-weight:bold;
+					
+		}
+	
+	.footw {
+		width:100%;
+		float:left;
+	}
+	
+		.conf {
+			margin-top:100px;
+			margin-bottom:100px;
+		}
+		
+		
+		@media screen and (max-width:600px) {
+		.userinfo {
+			width:50%;
+			float:right;
+			font-size:1.1em;
+		}
+		
+		.userpro {
+			width:50%;
+			float:right;
+			font-size:1em;
+		}
+		
+		
+		.loginbuttons {
+			font-size:1em;
+			width:60%;
+		}
+		
+		.advertbutton {
+			display:block;
+		}
+		
+		.left {
+			width:40%;
+		}
+		header h1 {
+			font-size:0.9em;
+			margin-top:5px;
+			display:none;
+			
+		}
+		
+		.logo > img {
+			max-width:100%;
+			
+		}
+		
+		figure.logo {
+			width:90px;
+			
+		}
+		
+		.posright {
+			width:100%;
+			float:left;
+		}
+		
+		.contact {
+			width:100%;
+			float:left;	
+		}
+		
+		.detail {
+			width:100%;
+			margin-top:50px;
+		}
+		
+		nav {
+			display:block;
+		}
+		
+		.searchbut > input{
+			display:none;
+		}
+		
+		#search > select {
+			width:65%;
+			margin-left:0%;
+		-webkit-appearance: none;
+			-moz-appearance: none;
+		}
+		
+		.home {
+			margin:0 0 0 3.5%;
+		}
+		
+		.mybutton {
+			width:27%;
+		}
+		
+		#search {
+			width:78%;
+			
+		}
+	
+		.advertbutton {
+			height:30px;
+			width:100px;
+			font-size:1em;
+			line-height:30px;
+		}
+		
+		/*
+		
+		.mob {
+			display:none;
+		}
+		
+		
+		#togglemenu {
+			height: 50px;
+			width: 60px;
+			float: left;
+			display: block;
+			position:absolute;
+			top:107px;
+					}
+					
+		#togglemenu  div {
+			height: 4px;
+			background: black;
+			border: 5px;
+			margin: 9px;
+					}
+		
+		
+		
+		.mob ul {
+			margin: 0%;
+			padding: 0%;
+			width: 100%;
+				}
+				
+		.mob ul li {
+			list-style-type: none;
+			display: inline-block;
+			float: left;
+			width: 100%;
+			text-align: center;
+			background-color: #ddd;
+			border: 1px solid white;
+			box-sizing: border-box;
+			height: 50px;
+			line-height: 50px;
+				}
+				
+		.mob ul li a {
+				text-decoration: none;
+				color: black;
+				display: block;
+				}
+				
+		.mob ul li a:hover {
+				background: lightgray;
+				
+				}	
+		
+		*/
+		
+		
+		
+		
+		.align {
+			margin-left:0%;
+			margin-right:0%;
+		}
+		
+		
+		.adv {
+			width:98%;
+			height:auto;
+			margin-left:0%;
+			
+			
+		}
+		
+		.picture {
+			width:100%;
+			height:auto;
+		}
+		
+		.leftf {
+			width:50%;
+			margin-right:25%;
+			margin-left:25%;
+		}
+		
+		.leftf > a {
+			font-size:0.8em;
+		}
+		
+		
+		.footpar {
+			font-size:0.9em;
+			}
+			
+		.footw {
+			margin-top:0%;
+			margin-bottom:0px;
+		}
+		
+		.fa-3x {
+			font-size:2em;
+		}
+		
+		.socicons {
+			margin-top:0%;
+		}
+		
+		.copyrights {
+			padding-right:0;
+			text-align:center;
+		}
+		
+		/*login form*/
+		
+		#login, #signup {
+			width:100%;
+			margin-left:0%;
+			margin-rigth:0%;
+		}
+		
+		.signup {
+			font-size:1.4em;
+		}
+		
+		.button {
+			width:90px;
+			font-size:1em;
+		}
+		
+		/*adform*/
+		
+		#adform {
+			width:94%;
+			margin-left:0%;
+		}
+		
+		/*profile form*/
+		.personaldetails {
+			width:100%;
+			padding-left:45px;
+			box-sizing:border-box;
+			margin-top:0px;
+		}
+		
+		.personal > figure {
+			margin-left:60px;
+		}
+		
+		.personaldetails > p {
+			font-size:1em;
+		}
+		
+		.upd {
+			margin-left:45px;
+		}
+		
+		#profile {
+			width:100%;
+			padding-left:1%;
+		}
+		
+		#profile label {
+			width:100%;
+		}
+		.profile label {
+			width:100%;
+		}
+		
+		#profile input, #profile select {
+			width:100%;
+		}
+		
+		/*viewad*/
+		
+		.add {
+			width:100%;
+			height:auto;
+			margin-top:50px;
+			margin-bottom:25px;
+		}
+		
+		.posright {
+			margin-top:25px;
+			padding-left:1%;
+		}
+		
+		/*confirmation page*/
+		.conf{
+		margin-left:2%;
+		margin-right:2%;
+		margin-top:100px;
+		margin-bottom:100px;
+		width:96%;
+		font-size:1.0em;
+		}
+		
+		.conf > h1, .conf > p {
+			margin-top:70px;
+		}
+	}
+	
+	@media screen and (min-width:601px) and (max-width:1024px) {
+		
+		header h1 {
+			font-size:1.5em;
+		}
+		
+		#adform {
+			width:94%;
+			margin-left:0%;
+		}
+		
+		#search > select {
+			width:27%;
+		}	
+		
+		
+		figure.logo {
+			width:120px;
+			margin-right:10px;
+		}
+		
+		
+		.left {
+			width:70%;
+		}
+		
+		.userinfo {
+			width:30%;
+		}
+		
+		.userpro {
+			width:30%;
+		}
+		
+		
+		.loginbuttons {
+			width:30%;
+		}
+		
+		
+		.advertbutton {
+			height:35px;
+			width:100px;
+			font-size:1em;
+			line-height:35px;
+		}
+		
+		.leftf {
+			margin-left:8%;
+		}
+		
+		.copyrights {
+			text-align:center;
+		}
+		
+		.adv {
+			width:43%;
+			height:auto;
+		}
+		
+		.picture {
+			height:auto;
+		}
+		
+		.add {
+			width:100%;
+			height:auto;
+			margin-top:50px;
+			margin-bottom:0%;
+		}
+		
+		.posright {
+			margin-top:50px;
+			padding-left:0%;
+			width:55%;
+		}
+		
+		.contact {
+			margin-top:50px;
+			width: 40%;
+		}
+		
+		/*signup form*/
+		
+		#login, #signup {
+			width:50%;
+			margin-left:25%;
+			margin-rigth:25%;
+		}
+		
+		.signup {
+			font-size:1.4em;
+		}
+		
+		.button {
+			width:90px;
+			font-size:1em;
+		}
+		
+		#search {
+			width: 86%;
+		}
+		
+		header h1 {
+			margin-top:85px;
+		}
+		
+		.personaldetails {
+			width:45%;
+		}
+		
+		.upd {
+			margin-left:40px;
+		}
+		
+		#profile {
+			width:80%;
+		}
+		
+		.leftf > a {
+			font-size:0.8em;
+		}
+		
+		
+		.footpar {
+			font-size:0.9em;
+			}
+			
+		.footw {
+			margin-top:0%;
+			margin-bottom:0px;
+		}
+		
+		.conf{
+		margin-left:7%;
+		margin-right:7%;
+		margin-top:100px;
+		margin-bottom:100px;
+		width:86%;
+		font-size:1.0em;
+		}
+		
+	}
